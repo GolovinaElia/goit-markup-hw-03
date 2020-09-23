@@ -52,8 +52,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-theme-color);
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 /*========== END COMPONENTS ==========*/
 
@@ -110,6 +108,7 @@ img {
 .hero {
   text-align: center;
   background-color: #2f303a;
+  margin-bottom: 94px;
 }
 .hero .container {
   padding-top: 200px;
@@ -148,7 +147,7 @@ img {
 
 /*========== PRINCIPLES ==========*/
 .principles {
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .principles-list {
   display: flex;
@@ -182,6 +181,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 188px;
+  margin-top: 50px;
 }
 /*========== END SERVICES ==========*/
 
@@ -189,16 +189,14 @@ img {
 .team-list {
   display: flex;
   justify-content: space-between;
-}
-.team-list-img {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  margin-top: 50px;
 }
 .team-list-content {
   padding-top: 30px;
   padding-right: 60px;
   padding-left: 60px;
-  padding-bottom: 94px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-name {
   font-weight: 500;
@@ -216,6 +214,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--description-color);
+  padding-bottom: 30px;
 }
 /*========== END TEAM ==========*/
 /*========== END MAIN ==========*/
@@ -224,6 +223,7 @@ img {
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
+  margin-top: 94px;
 }
 .footer .logo {
   display: block;
@@ -231,7 +231,7 @@ img {
   margin-right: 0;
   color: #ffffff;
 }
-.contact-listm:not(:last-child) {
+.contact-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 .contact-list-address {
@@ -255,11 +255,11 @@ img {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  margin-top: 100px;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 .filter-list-item:not(:last-child) {
-  margin-right: 52px;
+  margin-right: 8px;
 }
 .filter-list-title {
   font-weight: 500;
@@ -293,6 +293,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-theme-colo);
+  margin-bottom: 4px;
 }
 .categories-list-position {
   font-weight: 400;
@@ -300,12 +301,12 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--description-color);
-  margin-bottom: 4px;
+  margin-bottom: 20px;
 }
 .categories-list-content {
   padding-top: 20px;
   padding-right: 24px;
   padding-left: 24px;
-  padding-bottom: 94px;
   border: 1px solid #eeeeee;
+  background: #ffffff;
 }
