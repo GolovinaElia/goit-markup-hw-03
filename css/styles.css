@@ -177,15 +177,21 @@ img {
 /*========== END PRINCIPLES ==========*/
 
 /*========== SERVICES ==========*/
+.services {
+  padding-bottom: 94px;
+}
 .services-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 188px;
   padding-top: 50px;
 }
 /*========== END SERVICES ==========*/
 
 /*========== TEAM ==========*/
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -223,7 +229,6 @@ img {
 .footer {
   background-color: #2f303a;
   padding: 60px 0;
-  margin-top: 94px;
 }
 .footer .logo {
   display: block;
@@ -280,6 +285,7 @@ img {
 .categories-list {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 .categories-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
