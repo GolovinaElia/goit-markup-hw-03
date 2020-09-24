@@ -108,7 +108,6 @@ img {
 .hero {
   text-align: center;
   background-color: #2f303a;
-  margin-bottom: 94px;
 }
 .hero .container {
   padding-top: 200px;
@@ -147,6 +146,7 @@ img {
 
 /*========== PRINCIPLES ==========*/
 .principles {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .principles-list {
@@ -180,8 +180,8 @@ img {
 .services-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 188px;
-  margin-top: 50px;
+  padding-bottom: 188px;
+  padding-top: 50px;
 }
 /*========== END SERVICES ==========*/
 
@@ -189,7 +189,7 @@ img {
 .team-list {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .team-list-content {
   padding-top: 30px;
